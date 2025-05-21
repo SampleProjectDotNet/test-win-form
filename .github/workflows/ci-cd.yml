@@ -10,7 +10,7 @@ jobs:
   call-build:
     uses: SampleProjectDotNet/reusable-workflows/.github/workflows/dotnet-build-test.yml@main
     with:
-      projectType: "WindonsForm"
+      projectType: "WindowsForm"
     secrets: inherit
   
   call-publish:
